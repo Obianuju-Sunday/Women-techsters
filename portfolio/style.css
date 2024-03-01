@@ -3,7 +3,7 @@
     padding: 2px;
     margin: 0;
     box-sizing: border-box;
-    background-color: azure;
+    /* background-color: azure; */
 }
 
 
@@ -11,8 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EE8280;
-    color: aqua;
+    background-color: #df3584;
+    color: #e9f1fa;
     text-align: center;
     height: 100vh;
     width: 100%;
@@ -42,4 +42,39 @@
     font-size: 1.2em;
 }
 
+
+
+
+.footer {
+    background-color: #df3584;
+}
+
+.social-links {
+    text-align: center;
+    padding: 15px;
+}
+
+.social-links .fa {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #E7EAE9;
+    margin: 40px 5px 0;
+    color: #E7EAE9;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-links .fa:hover {
+    background: #E7EAE9;
+    color: #df3584;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    color: #E7EAE9;
+    font-size: 1.5em;
+    padding: 2em;
+}
   
