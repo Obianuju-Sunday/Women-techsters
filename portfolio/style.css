@@ -42,7 +42,29 @@
     font-size: 1.2em;
 }
 
+.skills-section {
+    text-align: center;
+    height: 100vh;
+}
 
+.skills-section h2 {
+    font-size: 5em;
+    font-family: "Nunito", sans-serif;
+}
+
+.skill-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.skill-images img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
 
 
 .footer {
