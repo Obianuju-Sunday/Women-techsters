@@ -43,13 +43,17 @@
 }
 
 .skills-section {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 .skills-section h2 {
     font-size: 5em;
     font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
 }
 
 .skill-images {
