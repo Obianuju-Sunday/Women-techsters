@@ -3,7 +3,6 @@
     padding: 2px;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: azure; */
 }
 
 
@@ -70,6 +69,37 @@
     margin: 10px;
 }
 
+.get-in-touch-section {
+    text-align: center;
+    height: 50vh;
+    padding: 50px 0;
+}
+
+.get-in-touch-section h2 {
+    font-size: 5em;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
+}
+
+.get-in-touch-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.send-email-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #df3584;
+    color: #e9f1fa;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.send-email-button:hover {
+    background-color: #ff9bca;
+    color: black;
+}
 
 .footer {
     background-color: #df3584;
