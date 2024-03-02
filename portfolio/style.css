@@ -15,7 +15,7 @@
     text-align: center;
     height: 100vh;
     width: 100%;
-    font-size: 10em;
+    font-size: 10vw;
     font-weight: bold;
     font-family: "Twinkle Star", cursive;
 }
@@ -71,7 +71,6 @@
 
 .get-in-touch-section {
     text-align: center;
-    height: 50vh;
     padding: 50px 0;
 }
 
@@ -86,6 +85,7 @@
     margin-bottom: 30px;
 }
 
+
 .send-email-button {
     display: inline-block;
     padding: 12px 24px;
@@ -97,8 +97,8 @@
 }
 
 .send-email-button:hover {
-    background-color: #ff9bca;
-    color: black;
+    background-color: black;
+    color: #ff9bca;
 }
 
 .footer {
